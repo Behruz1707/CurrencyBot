@@ -8,5 +8,6 @@ public class App {
     public static void main(String[] args) throws TelegramApiException {
         TelegramBotsApi api = new TelegramBotsApi(DefaultBotSession.class);
         api.registerBot(new SimpleBot());
+
     }
 }
