@@ -17,6 +17,6 @@ public class ButtonUtils {
                     InlineKeyboardButton.builder().text("Rouble").callbackData("rouble").build()
             ))
             .keyboardRow(List.of(
-                    InlineKeyboardButton.builder().text("Lira").callbackData("lira").build()
+                    InlineKeyboardButton.builder().text("➡").callbackData("next").build()
             )).build();
 }
